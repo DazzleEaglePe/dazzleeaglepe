@@ -1,0 +1,60 @@
+<svg width="1600" height="460" viewBox="0 0 1600 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Bruno Velasques — Full Stack Software Developer</title>
+  <desc id="description">Dark portfolio banner with violet and lime accents for Bruno Velasques.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1600" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050505"/>
+      <stop offset="0.58" stop-color="#0A0710"/>
+      <stop offset="1" stop-color="#11170D"/>
+    </linearGradient>
+    <radialGradient id="violetGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1240 224) rotate(90) scale(270 350)">
+      <stop stop-color="#8E61FF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#8E61FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="limeGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1435 360) rotate(90) scale(150 240)">
+      <stop stop-color="#BAFF66" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#BAFF66" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="96" y1="0" x2="540" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BAFF66"/>
+      <stop offset="0.48" stop-color="#78A8FF"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="white" stroke-opacity="0.045"/>
+    </pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="460" rx="34" fill="url(#background)"/>
+  <rect width="1600" height="460" rx="34" fill="url(#grid)"/>
+  <rect width="1600" height="460" rx="34" fill="url(#violetGlow)"/>
+  <rect width="1600" height="460" rx="34" fill="url(#limeGlow)"/>
+  <rect x="1" y="1" width="1598" height="458" rx="33" stroke="white" stroke-opacity="0.1" stroke-width="2"/>
+
+  <g opacity="0.58">
+    <circle cx="1280" cy="230" r="76" stroke="#A78BFA" stroke-opacity="0.55" stroke-width="2"/>
+    <circle cx="1280" cy="230" r="126" stroke="white" stroke-opacity="0.12" stroke-width="2"/>
+    <circle cx="1280" cy="230" r="184" stroke="white" stroke-opacity="0.07" stroke-width="2"/>
+    <circle cx="1280" cy="230" r="238" stroke="white" stroke-opacity="0.045" stroke-width="2"/>
+    <circle cx="1280" cy="230" r="16" fill="#BAFF66"/>
+    <circle cx="1280" cy="230" r="32" fill="#BAFF66" fill-opacity="0.2" filter="url(#blur)"/>
+    <circle cx="1428" cy="121" r="8" fill="#FF7657"/>
+    <circle cx="1118" cy="332" r="7" fill="#78A8FF"/>
+  </g>
+
+  <rect x="96" y="78" width="388" height="38" rx="19" fill="white" fill-opacity="0.045" stroke="white" stroke-opacity="0.1"/>
+  <circle cx="119" cy="97" r="5" fill="#BAFF66"/>
+  <text x="136" y="103" fill="#A1A1AA" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2.2">FULL STACK · FINTECH · CLOUD · APPLIED AI</text>
+
+  <text x="96" y="224" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" letter-spacing="-3">Bruno Velasques</text>
+  <text x="96" y="276" fill="url(#accent)" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" letter-spacing="-0.8">Building systems that create measurable impact.</text>
+  <text x="96" y="329" fill="#A1A1AA" font-family="Arial, Helvetica, sans-serif" font-size="21">Banking · SaaS · Cloud infrastructure · Intelligent automation</text>
+
+  <rect x="96" y="368" width="142" height="42" rx="21" fill="#BAFF66"/>
+  <text x="125" y="395" fill="#050505" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">ICA, PERU</text>
+  <rect x="250" y="368" width="258" height="42" rx="21" fill="white" fill-opacity="0.05" stroke="white" stroke-opacity="0.12"/>
+  <text x="278" y="395" fill="#D4D4D8" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">OPEN TO LIMA &amp; REMOTE</text>
+</svg>
